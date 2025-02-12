@@ -6,4 +6,10 @@ export class Calculation {
   public multiply(a: number, b: number): number {
     return a * b;
   }
+  public divide(a: number, b: number): number {
+    return a / b;
+  }
+  public subtract(a: number, b: number): number {
+    return a - b;
+  }
 }
